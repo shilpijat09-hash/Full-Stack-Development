@@ -1,0 +1,20 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+}
+.item{
+    background-color: aqua;
+    border: 1px solid black;
+    padding:20px;
+}
+
+
+
+<div class="slider">
+    <div class="image"><img src="luffy1.jpg"></div>
+    <div class="image"><img src="luffy2.jpg"></div>
+    <div class="image active"><img src="luffy3.jpg"></div>
+    <div class="image"><img src="luffy4.jpg"></div>
+    <div class="image"><img src="luffy5.jpg"></div>
+</div>

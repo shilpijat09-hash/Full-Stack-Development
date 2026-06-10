@@ -1,0 +1,22 @@
+button:hover{
+    background-color:brown;
+    transition: background 2s;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+.box{
+    transition: 2s;
+    width: 200px;
+    height: 200px;
+    display:flex;
+    justify-content:center;
+    align-items: center; 
+}
+.box:hover{
+transform: scale(1.2);
+background-color:aqua;
+}

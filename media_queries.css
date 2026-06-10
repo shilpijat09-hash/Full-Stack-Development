@@ -1,0 +1,33 @@
+@media(max-width: 780px){
+body{
+    background-color: aqua;
+}
+}
+@media(min-width:900px){
+    body{
+        background-color: pink;
+    }
+}
+@media(min-width: 600px)and(max-width: 900px){
+    body{
+        background-color: black;
+    }
+}
+/*mobile*/
+@media(max-width: 480px){
+    body{
+        font-size: 14px;
+    }
+}
+/*desktop*/
+@media(min-width:769px){
+    body{
+        font-size: 18px;
+    }
+}
+/*tablet*/
+@media(min-width:481px)and(max-width:768px){
+    body{
+        font-size: 16px;
+    }
+}

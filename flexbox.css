@@ -1,0 +1,19 @@
+#flex{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 16px;
+}
+.direction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border: 1px solid black;
+    height: 60vh;
+}
+.ab{
+    border: 10px solid black;
+}
