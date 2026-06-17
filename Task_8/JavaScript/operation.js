@@ -55,4 +55,15 @@ console.log(odd);
 
 // reduce
 // saare elements ko ek variable me convert kar dega
-
+const sum=array.reduce(function(sum,x){
+    return sum+x;
+},0);
+const sum1=array.reduce(function(sum,x){
+    return sum+x;
+});
+const sum2=array.reduce((sum,x)=>sum+x,0)
+const sum3=array.reduce((sum,x)=>sum+x);
+console.log(sum);
+console.log((sum1));
+console.log((sum2));
+console.log((sum3));
